@@ -1,0 +1,73 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b967cb53eb.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="../Imagenes/DcComicsIcon.png">
+    <link rel="icon" href="../Imagenes/DcComicsIcon.png">
+</head>
+<body id="fondoContacto">
+    <header>   
+        <nav>
+            
+            <a href="../index.html">Inicio</a>
+            <a href="Personajes.html">Personajes</a>
+            <a href="Contacto.html">Contacto</a>
+            <a href="Productos.html">Productos</a>
+                
+        </nav>
+    </header>
+    <main >
+        <section>
+        <h1>CONTACTO</h1>
+         </section>
+        <section>
+            <form action="https://formspree.io/f/manwrale" method="post">
+                <fieldset>
+                    <legend><b>Datos</b></legend>
+                    <label for="nombre">Nombre[*]</label>
+                    <input type="text" size="10" maxlength="20" required>
+                    <label for="apellido">Apellido[*]</label>
+                    <input type="text" size="10" maxlength="20" required> <br><br>
+                    <label for="telefono">Telefono</label>
+                    <input type="number" name="telefono" required>
+                    <label for="tipoConsulta">Tipo de consulta</label>
+                    <select name="tipoConsulta" id="">
+                        <option value="comics">Comics</option>
+                        <option value="informacion">Informacion</option>
+                        <option value="productos">Productos</option>
+                        <option value="otraConsulta">Otra consulta</option>
+                    </select><br><br>
+                    <label for="correo">E-Mail</label>
+                    <input type="email" name="correo" id="">
+                    </fieldset><br></br>
+                    <label for="comentarios">Escriba su consulta</label><br>
+                    <textarea name="comentarios" id="" cols="100" rows="15"></textarea><br></br>
+                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Borrar Datos">
+                    <br><br>
+                    <input type="checkbox" name="condiciones" id required>
+                    Acepto los terminos y condiciones <br><br>
+                </form>
+            <p id="pForm">Una vez leida su solicitud sera contactado por su telefono o E-Mail</p>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="iconos">
+            <a href="https://www.instagram.com/dcofficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/dc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/DCOfficial"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div>
+            <p id="copyright">Dc Comics todos los derechos reservados©</p>
+        </div>
+    </footer>
+   
+</body>
+</html>
